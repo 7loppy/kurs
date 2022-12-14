@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #FFDAB9;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RegistrationController">
+    <children>
+        <AnchorPane layoutX="139.0" layoutY="155.0" prefHeight="191.0" prefWidth="522.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 5;">
+            <children>
+                <TextField fx:id="regloginfield" layoutX="27.0" layoutY="113.0" prefHeight="31.0" prefWidth="197.0" promptText="Логин">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </TextField>
+                <PasswordField fx:id="regpasswordfield" layoutX="297.0" layoutY="113.0" prefHeight="31.0" prefWidth="197.0" promptText="Пароль">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </PasswordField>
+            <TextField fx:id="firstnamefield" layoutX="27.0" layoutY="69.0" prefHeight="31.0" prefWidth="197.0" promptText="Имя">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="secondnamefield" layoutX="297.0" layoutY="69.0" prefHeight="31.0" prefWidth="197.0" promptText="Фамилия">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <Button fx:id="registratebtn" layoutX="192.0" layoutY="152.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="168.0" text="Зарегистрироваться">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Label layoutX="186.0" prefHeight="68.0" prefWidth="180.0" text="Регистрация" textFill="#171717">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            </children>
+         <effect>
+            <Reflection />
+         </effect>
+        </AnchorPane>
+      <Button fx:id="backbtn" layoutX="698.0" layoutY="14.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="88.0" text="Назад">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+          <Label layoutX="293.0" layoutY="11.0" prefHeight="68.0" prefWidth="251.0" text="Cinema App" textFill="#fffb00">
+              <font>
+                  <Font name="Serif Regular" size="46.0" />
+              </font>
+          </Label>
+    </children>
+    <effect>
+        <InnerShadow choke="0.11" height="73.76" radius="35.6475" width="70.83">
+            <color>
+                <Color red="0.2631579041481018" green="0.2436647117137909" blue="0.2436647117137909" />
+            </color>
+        </InnerShadow>
+    </effect>
+</AnchorPane>

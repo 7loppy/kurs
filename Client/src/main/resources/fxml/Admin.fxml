@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #FFDAB9;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AdminWindowController">
+    <children>
+        <AnchorPane layoutY="70.0" prefHeight="430.0" prefWidth="800.0" style="-fx-background-color: #FFFFFF;">
+            <children>
+                <TableView fx:id="MoviesTable" layoutY="2.0" prefHeight="213.0" prefWidth="800.0">
+                    <columns>
+                        <TableColumn fx:id="IdConstrait" prefWidth="117.0" text="ID" />
+                        <TableColumn fx:id="TitleConstrait" prefWidth="285.0" text="Название фильма" />
+                        <TableColumn fx:id="DateConstrait" prefWidth="130.0" text="Дата/Время" />
+                  <TableColumn fx:id="HallConstr" prefWidth="153.0" text="Номер зала" />
+                  <TableColumn fx:id="countconstr" prefWidth="114.0" text="Количество мест" />
+                    </columns>
+                </TableView>
+            <TextField fx:id="NameOfTitleField" layoutX="14.0" layoutY="229.0" prefHeight="25.0" prefWidth="156.0" promptText="Название фильма" />
+            <TextField fx:id="DAteField" layoutX="199.0" layoutY="229.0" prefHeight="25.0" prefWidth="134.0" promptText="Дата/Время" />
+            <Button fx:id="addbtn" layoutX="509.0" layoutY="229.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" text="Добавить" />
+            <TableView fx:id="accTable" layoutY="262.0" prefHeight="167.0" prefWidth="419.0">
+              <columns>
+                <TableColumn fx:id="LogIDConstraits" prefWidth="63.0" text="ID" />
+                <TableColumn fx:id="LoignConstraits" prefWidth="201.0" text="Логин" />
+                  <TableColumn fx:id="LockedConstraits" text="Блокировка" />
+                  <TableColumn fx:id="admConstr" prefWidth="75.0" text="Админ" />
+              </columns>
+            </TableView>
+            <Button fx:id="BACKTOSUbtn" layoutX="609.0" layoutY="385.0" mnemonicParsing="false" text="Вернуться к авторизации">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <TextField fx:id="lockfld" layoutX="429.0" layoutY="284.0" prefHeight="25.0" prefWidth="98.0" promptText="Блокировка" />
+            <TextField fx:id="ADmfld" layoutX="429.0" layoutY="321.0" prefHeight="25.0" prefWidth="98.0" promptText="Админ" />
+            <Button fx:id="chnbtn" layoutX="429.0" layoutY="352.0" mnemonicParsing="false" text="Изменить" />
+            <Button fx:id="delbtn" layoutX="426.0" layoutY="388.0" mnemonicParsing="false" text="Удалить аккаунт" />
+            <Button fx:id="redbtn" layoutX="588.0" layoutY="229.0" mnemonicParsing="false" text="редактировать" />
+            <Button fx:id="delflmbtn" layoutX="698.0" layoutY="229.0" mnemonicParsing="false" text="Удалить" />
+            <TextField fx:id="hallfld" layoutX="346.0" layoutY="229.0" prefHeight="25.0" prefWidth="140.0" promptText="Зал" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="233.0" prefHeight="68.0" prefWidth="274.0" text="Cinema App" textAlignment="CENTER" textFill="#f9ff00" textOverrun="WORD_ELLIPSIS">
+            <font>
+                <Font name="Serif Regular" size="46.0" />
+            </font>
+        </Label>
+    </children>
+    <effect>
+        <InnerShadow choke="0.11" height="73.76" radius="35.6475" width="70.83">
+            <color>
+                <Color red="0.2631579041481018" green="0.2436647117137909" blue="0.2436647117137909" />
+            </color>
+        </InnerShadow>
+    </effect>
+</AnchorPane>

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #FFDAB9;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PurchaseController">
+    <children>
+        <AnchorPane layoutY="91.0" prefHeight="409.0" prefWidth="789.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <TextField fx:id="fld59" alignment="CENTER" layoutX="131.0" layoutY="14.0" prefHeight="42.0" prefWidth="84.0" text="59">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld60" alignment="CENTER" layoutX="215.0" layoutY="14.0" prefHeight="42.0" prefWidth="84.0" text="60">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld61" alignment="CENTER" layoutX="299.0" layoutY="14.0" prefHeight="42.0" prefWidth="84.0" text="61">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld62" alignment="CENTER" layoutX="384.0" layoutY="14.0" prefHeight="42.0" prefWidth="84.0" text="62">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld63" alignment="CENTER" layoutX="468.0" layoutY="14.0" prefHeight="42.0" prefWidth="84.0" text="63">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld64" alignment="CENTER" layoutX="552.0" layoutY="14.0" prefHeight="42.0" prefWidth="75.0" text="64">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld47" alignment="CENTER" layoutX="131.0" layoutY="56.0" prefHeight="42.0" prefWidth="42.0" text="47">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld48" alignment="CENTER" layoutX="173.0" layoutY="56.0" prefHeight="42.0" prefWidth="42.0" text="48">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld49" alignment="CENTER" layoutX="215.0" layoutY="56.0" prefHeight="42.0" prefWidth="42.0" text="49">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld50" alignment="CENTER" layoutX="257.0" layoutY="56.0" prefHeight="42.0" prefWidth="42.0" text="50">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld51" alignment="CENTER" layoutX="299.0" layoutY="56.0" prefHeight="42.0" prefWidth="42.0" text="51">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld52" alignment="CENTER" layoutX="342.0" layoutY="56.0" prefHeight="42.0" prefWidth="42.0" text="52">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld53" alignment="CENTER" layoutX="384.0" layoutY="56.0" prefHeight="42.0" prefWidth="42.0" text="53">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld54" alignment="CENTER" layoutX="426.0" layoutY="56.0" prefHeight="42.0" prefWidth="42.0" text="54">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld55" alignment="CENTER" layoutX="468.0" layoutY="56.0" prefHeight="42.0" prefWidth="42.0" text="55">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld56" alignment="CENTER" layoutX="510.0" layoutY="56.0" prefHeight="42.0" prefWidth="42.0" text="56">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld57" alignment="CENTER" layoutX="552.0" layoutY="56.0" prefHeight="42.0" prefWidth="42.0" text="57">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld58" alignment="CENTER" layoutX="585.0" layoutY="56.0" prefHeight="42.0" prefWidth="42.0" text="58">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld35" alignment="CENTER" layoutX="131.0" layoutY="98.0" prefHeight="42.0" prefWidth="42.0" text="35">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld36" alignment="CENTER" layoutX="173.0" layoutY="98.0" prefHeight="42.0" prefWidth="42.0" text="36">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld37" alignment="CENTER" layoutX="215.0" layoutY="98.0" prefHeight="42.0" prefWidth="42.0" text="37">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld38" alignment="CENTER" layoutX="257.0" layoutY="98.0" prefHeight="42.0" prefWidth="42.0" text="38">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld39" alignment="CENTER" layoutX="299.0" layoutY="98.0" prefHeight="42.0" prefWidth="42.0" text="39">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld40" alignment="CENTER" layoutX="342.0" layoutY="98.0" prefHeight="42.0" prefWidth="42.0" text="40">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld41" alignment="CENTER" layoutX="384.0" layoutY="98.0" prefHeight="42.0" prefWidth="42.0" text="41">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld42" alignment="CENTER" layoutX="426.0" layoutY="98.0" prefHeight="42.0" prefWidth="42.0" text="42">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld43" alignment="CENTER" layoutX="468.0" layoutY="98.0" prefHeight="42.0" prefWidth="42.0" text="43">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld44" alignment="CENTER" layoutX="510.0" layoutY="98.0" prefHeight="42.0" prefWidth="42.0" text="44">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld45" alignment="CENTER" layoutX="552.0" layoutY="98.0" prefHeight="42.0" prefWidth="42.0" text="45">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld46" alignment="CENTER" layoutX="585.0" layoutY="98.0" prefHeight="42.0" prefWidth="42.0" text="46">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld23" alignment="CENTER" layoutX="131.0" layoutY="140.0" prefHeight="42.0" prefWidth="42.0" text="23">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld24" alignment="CENTER" layoutX="173.0" layoutY="140.0" prefHeight="42.0" prefWidth="42.0" text="24">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld25" alignment="CENTER" layoutX="215.0" layoutY="140.0" prefHeight="42.0" prefWidth="42.0" text="25">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld26" alignment="CENTER" layoutX="257.0" layoutY="140.0" prefHeight="42.0" prefWidth="42.0" text="26">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld27" alignment="CENTER" layoutX="299.0" layoutY="140.0" prefHeight="42.0" prefWidth="42.0" text="27">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld28" alignment="CENTER" layoutX="342.0" layoutY="140.0" prefHeight="42.0" prefWidth="42.0" text="28">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld29" alignment="CENTER" layoutX="384.0" layoutY="140.0" prefHeight="42.0" prefWidth="42.0" text="29">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld30" alignment="CENTER" layoutX="426.0" layoutY="140.0" prefHeight="42.0" prefWidth="42.0" text="30">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld31" alignment="CENTER" layoutX="468.0" layoutY="140.0" prefHeight="42.0" prefWidth="42.0" text="31">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld32" alignment="CENTER" layoutX="510.0" layoutY="140.0" prefHeight="42.0" prefWidth="42.0" text="32">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld33" alignment="CENTER" layoutX="552.0" layoutY="140.0" prefHeight="42.0" prefWidth="42.0" text="33">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld34" alignment="CENTER" layoutX="585.0" layoutY="140.0" prefHeight="42.0" prefWidth="42.0" text="34">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld11" alignment="CENTER" layoutX="132.0" layoutY="174.0" prefHeight="42.0" prefWidth="42.0" text="11">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld12" alignment="CENTER" layoutX="174.0" layoutY="174.0" prefHeight="42.0" prefWidth="42.0" text="12">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld13" alignment="CENTER" layoutX="216.0" layoutY="174.0" prefHeight="42.0" prefWidth="42.0" text="13">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld14" alignment="CENTER" layoutX="258.0" layoutY="174.0" prefHeight="42.0" prefWidth="42.0" text="14">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld15" alignment="CENTER" layoutX="300.0" layoutY="174.0" prefHeight="42.0" prefWidth="42.0" text="15">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld16" alignment="CENTER" layoutX="343.0" layoutY="174.0" prefHeight="42.0" prefWidth="42.0" text="16">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld17" alignment="CENTER" layoutX="385.0" layoutY="174.0" prefHeight="42.0" prefWidth="42.0" text="17">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld18" alignment="CENTER" layoutX="427.0" layoutY="174.0" prefHeight="42.0" prefWidth="42.0" text="18">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld19" alignment="CENTER" layoutX="469.0" layoutY="174.0" prefHeight="42.0" prefWidth="42.0" text="19">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld20" alignment="CENTER" layoutX="511.0" layoutY="174.0" prefHeight="42.0" prefWidth="42.0" text="20">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld21" alignment="CENTER" layoutX="553.0" layoutY="174.0" prefHeight="42.0" prefWidth="42.0" text="21">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld22" alignment="CENTER" layoutX="586.0" layoutY="174.0" prefHeight="42.0" prefWidth="42.0" text="22">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld1" alignment="CENTER" layoutX="132.0" layoutY="216.0" prefHeight="42.0" prefWidth="84.0" text="1">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld2" alignment="CENTER" layoutX="216.0" layoutY="216.0" prefHeight="42.0" prefWidth="84.0" text="2">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld3" alignment="CENTER" layoutX="301.0" layoutY="216.0" prefHeight="42.0" prefWidth="84.0" text="3">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld4" alignment="CENTER" layoutX="385.0" layoutY="216.0" prefHeight="42.0" prefWidth="84.0" text="4">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld5" alignment="CENTER" layoutX="469.0" layoutY="216.0" prefHeight="42.0" prefWidth="84.0" text="5">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="fld6" alignment="CENTER" layoutX="553.0" layoutY="216.0" prefHeight="42.0" prefWidth="75.0" text="6">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <Label layoutX="633.0" layoutY="56.0" text="1-6 Парные места">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="633.0" layoutY="88.0" text="11-59 Одиночные места">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="633.0" layoutY="120.0" text="60-64 Диван">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="PlaceField" layoutX="132.0" layoutY="292.0" promptText="ВЫбирете место">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <Label layoutX="14.0" layoutY="25.0" text="цена">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="56.0" text="Парные - 24">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="88.0" text="Одиночные - 12">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="11.0" layoutY="120.0" text="Диван - 32">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="InputBtn" layoutX="364.0" layoutY="292.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="107.0" text="приобрести">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="backbtn" layoutX="714.0" layoutY="370.0" mnemonicParsing="false" text="Назад">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+        </AnchorPane>
+        <Label layoutX="233.0" prefHeight="68.0" prefWidth="270.0" text="Cinema App" textFill="#fffb00">
+            <font>
+                <Font name="Serif Regular" size="46.0" />
+            </font>
+        </Label>
+    </children>
+    <effect>
+        <InnerShadow choke="0.11" height="73.76" radius="35.6475" width="70.83">
+            <color>
+                <Color red="0.2631579041481018" green="0.2436647117137909" blue="0.2436647117137909" />
+            </color>
+        </InnerShadow>
+    </effect>
+</AnchorPane>
